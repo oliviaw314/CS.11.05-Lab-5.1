@@ -7,11 +7,11 @@ public class ArrayUtility {
     }
 
     public static int sum(int[] array) {
-        int sum = 0;
+        int total = 0;
         for (int num: array) {
-            sum+=num;
+            total+=num;
         }
-        return sum;
+        return total;
     }
 
     public static double average(int[] array) {
